@@ -50,4 +50,4 @@ th main.lua \
 -data ../data/office \
 -nClasses 31 -cache ../data/cache-mmd \
 -epochSize 10 \
--batchSize 64
+-batchSize 64 2>&1 | tee xxx.txt
